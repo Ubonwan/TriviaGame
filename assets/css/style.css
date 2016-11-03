@@ -1,0 +1,51 @@
+body {
+	background: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 25px;
+}
+
+html {
+	height: 100%;
+}
+
+header {
+	margin-top: -50px;
+	z-index: 1;
+}
+
+p {
+	color: #fff;
+}
+
+.container {
+	background: rgba(13, 19, 22, .8);
+	width: 700px;
+	height: 400px;
+	margin: auto;
+	margin-top: -20px;
+	text-align: center;
+	border: 10px solid transparent;
+	
+}
+
+.firstPage {
+	margin-top: -300px;
+}
+
+.firstPage p {
+	font-family: 'Merriweather', serif;
+	font-size: 40px;
+	width: 700px;
+	text-align: center;
+	margin: auto;
+}
+
+button {
+	padding: 10px 60px 10px 60px;
+	font-size: 30px;
+	font-family: 'Orbitron', sans-serif;
+}
